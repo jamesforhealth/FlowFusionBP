@@ -1,0 +1,19 @@
+模型: BranchContrastiveBPModel
+输入模式: ekg_ppg
+模型路径: best_compare_model_BranchContrastive_ekg_ppg_200.pth
+
+===== 血压预测评估结果 =====
+SBP 平均绝对误差 (MAE): 7.78 mmHg
+DBP 平均绝对误差 (MAE): 5.05 mmHg
+SBP 均方根误差 (RMSE): 10.15 mmHg
+DBP 均方根误差 (RMSE): 6.68 mmHg
+SBP 决定系数 (R²): 0.3938
+DBP 决定系数 (R²): 0.3851
+
+===== 误差分布 =====
+SBP 误差在 5 mmHg 内的比例: 41.62%
+DBP 误差在 5 mmHg 内的比例: 60.62%
+SBP 误差在 10 mmHg 内的比例: 71.69%
+DBP 误差在 10 mmHg 内的比例: 87.58%
+SBP 误差在 15 mmHg 内的比例: 87.12%
+DBP 误差在 15 mmHg 内的比例: 96.18%

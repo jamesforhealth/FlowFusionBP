@@ -1,0 +1,19 @@
+模型: End2EndRegressionModel
+输入模式: ekg_ppg
+模型路径: best_compare_model_End2End_ekg_ppg_200.pth
+
+===== 血压预测评估结果 =====
+SBP 平均绝对误差 (MAE): 8.27 mmHg
+DBP 平均绝对误差 (MAE): 5.34 mmHg
+SBP 均方根误差 (RMSE): 10.85 mmHg
+DBP 均方根误差 (RMSE): 7.05 mmHg
+SBP 决定系数 (R²): 0.3081
+DBP 决定系数 (R²): 0.3158
+
+===== 误差分布 =====
+SBP 误差在 5 mmHg 内的比例: 40.35%
+DBP 误差在 5 mmHg 内的比例: 58.97%
+SBP 误差在 10 mmHg 内的比例: 68.34%
+DBP 误差在 10 mmHg 内的比例: 85.28%
+SBP 误差在 15 mmHg 内的比例: 85.30%
+DBP 误差在 15 mmHg 内的比例: 94.29%

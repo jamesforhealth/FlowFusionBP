@@ -1,11 +1,19 @@
-# 忽略数据文件
+# 排除数据文件和临时文件
 *.tsv
 *.zip
+*.h5
+*.csv
+*.png
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.pth
 measurements_oscillometric/
 measurements_auscultatory/
 measurements_auscultatory/*
 measurements_oscillometric/*
-
+output_h5_folder/*
 # 忽略 Python 缓存文件
 __pycache__/
 *.pyc
@@ -17,3 +25,17 @@ Thumbs.db
 # 忽略 IDE 配置文件
 .vscode/
 .idea/
+
+# 忽略資料檔案
+preprocessed_data
+preprocessed_data/*
+
+# 忽略 Data Preprocessing 資料夾
+Data Preprocessing/
+Data Preprocessing/*
+Deep Learning Pipeline/
+Deep Learning Pipeline/*
+
+# 忽略模型文件
+*.pth
+*.png
